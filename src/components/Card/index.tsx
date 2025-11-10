@@ -7,6 +7,8 @@ export interface CardProps {
   handleClick?: (id: string) => void;
 }
 
+
+
 export function Card({ flipped = false, back, handleClick, id }: CardProps) {
   const cardContentClassNames = ['card__content'];
   flipped && cardContentClassNames.push('card__content--flipped');

@@ -1,23 +1,15 @@
-
 import { Grid } from '../../components/Grid';
 import { cards } from '../../data/cards';
-import './styles.css'
+import './styles.css';
 
-function App() {
+const handleClick = (id: string) => {
+  console.log(id);
+};
 
-  const handleClick = (id: string) => {
-    console.log(id);
-
-  }
- 
-
+export function App() {
   return (
- 
-    <div className='App'>
+    <div className="app">
       <Grid cards={cards} />
     </div>
-
-  )
+  );
 }
-
-export default App
