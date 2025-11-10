@@ -1,5 +1,4 @@
 
-import { Card } from '../../components/Card';
 import { Grid } from '../../components/Grid';
 import { cards } from '../../data/cards';
 import './styles.css'
